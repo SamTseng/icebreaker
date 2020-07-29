@@ -17,8 +17,8 @@ from __future__ import unicode_literals
 
 import os, sys, re, random, sqlite3, time
 # get channel_secret and channel_access_token from your environment variable
-channel_secret = os.getenv('LINE_CHANNEL_SECRET', '800c2aed02fb4f951f7ba42d2908fdfc')
-channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', 'llGIUBMzaaNqoPcP5Yqy9ycJQ+vi0KpcxRZOko91ha1XCoJo8lIrdkKiRRugTSMe4ZcmpsFbAHpfELAgx948r6AKzs/olwpooni8rhhmpzDVDjsb9fC5RSXPC9obJP2K2xVEE4aAqmnxF+XPZY++MwdB04t89/1O/w1cDnyilFU=')
+channel_secret = os.getenv('LINE_CHANNEL_SECRET', '')
+channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', '')
 
 from argparse import ArgumentParser
 import logging
