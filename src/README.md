@@ -20,7 +20,7 @@
 
 
 
-## 3.Runserver
+## 3. Run server
 * create Chat_DB.db
 ```
 Chat_DB.py
@@ -37,7 +37,7 @@ python chat_personal.py
 ```
 
 
-## 4.TBP
+## 4. TBP
 **chat_0.60.py**: LINE機器人主程式(群組)
 ```
 小明狀態:查詢chatbot活動狀態
@@ -45,7 +45,7 @@ python chat_personal.py
 小明說話:chatbot開始回覆
 ```
 
-## 5.Changelog
+## 5. Change log
 *2019.12.11
   * +mode field
 *2019.12.11
